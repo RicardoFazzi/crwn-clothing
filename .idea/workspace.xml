@@ -1,10 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0c8acd2-2afa-4e41-9998-529fc7f19fbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/directory/directory.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepages/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepages/homepage.styles.scss" afterDir="false" />
+    </list>
+    <list id="ff06ec6e-f63c-4a15-a283-2dd5000cebb7" name="no commit" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZAKNK7TVHNZc2uQdf2G73Ot2Mt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v12.3.1/lib/node_modules/prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/homepages" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0c8acd2-2afa-4e41-9998-529fc7f19fbc" name="Default Changelist" comment="" />
+      <changelist id="ff06ec6e-f63c-4a15-a283-2dd5000cebb7" name="no commit" comment="" />
+      <created>1584276416970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584276416970</updated>
+      <workItem from="1584276418992" duration="3767000" />
+    </task>
+    <task id="LOCAL-00001" summary="created project with first menu structure">
+      <created>1584277821682</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584277821682</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created project with first menu structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="created project with first menu structure" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="272" y="23" width="897" height="789" key="CommitChangelistDialog2" timestamp="1584277821304">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="272" y="23" width="897" height="789" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584277821304" />
+    <state x="571" y="372" key="VCS.ChangelistChooser" timestamp="1584277790161">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="571" y="372" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1584277790161" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584277823185">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584277823185" />
   </component>
 </project>
