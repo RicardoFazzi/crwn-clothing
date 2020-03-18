@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0c8acd2-2afa-4e41-9998-529fc7f19fbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/collection-item/collectio-item.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop_data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepages/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepages/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" afterDir="false" />
     </list>
     <list id="ff06ec6e-f63c-4a15-a283-2dd5000cebb7" name="no commit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +55,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584276416970</updated>
-      <workItem from="1584276418992" duration="6188000" />
+      <workItem from="1584276418992" duration="8834000" />
+      <workItem from="1584531665430" duration="528000" />
     </task>
     <task id="LOCAL-00001" summary="created project with first menu structure">
       <created>1584277821682</created>
@@ -59,28 +65,41 @@
       <option name="project" value="LOCAL" />
       <updated>1584277821682</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated menuItem to navigate withRouter HOC">
+      <created>1584309463630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584309463630</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../matr-backoffice/matr-backoffice-web/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created project with first menu structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="created project with first menu structure" />
+    <MESSAGE value="Updated menuItem to navigate withRouter HOC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated menuItem to navigate withRouter HOC" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="272" y="23" width="897" height="789" key="CommitChangelistDialog2" timestamp="1584277821304">
+    <state x="272" y="23" width="897" height="789" key="CommitChangelistDialog2" timestamp="1584309463407">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="272" y="23" width="897" height="789" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584277821304" />
+    <state x="272" y="23" width="897" height="789" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584309463407" />
     <state x="571" y="372" key="VCS.ChangelistChooser" timestamp="1584277790161">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="571" y="372" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1584277790161" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584277823185">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584309465588">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584277823185" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584309465588" />
   </component>
 </project>
