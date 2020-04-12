@@ -26,11 +26,44 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
     try {
       await userRef.set({ email, displayName, createdAt, ...additionalData });
     } catch (error) {
-      console.log('Error creating user', error.message);
+      console.log("Error creating user", error.message);
     }
   }
 
   return userRef;
+};
+
+// This adds items to firebase. It is meant to be used just once to avoid manually load data.
+export const addCollectionAndDocuments = async (
+  collectionKey,
+  objectsToAdd
+) => {
+  const collectionRef = firestore.collection(collectionKey);
+
+  const batch = firestore.batch();
+  objectsToAdd.forEach(obj => {
+    const docRef = collectionRef.doc();
+    batch.set(docRef, obj);
+  });
+  return await batch.commit();
+};
+
+export const convertCollectionSnapshotToMap = collections => {
+  const transformedCollection = collections.docs.map(doc => {
+    const { items, title } = doc.data();
+    const objToReturn = {
+      routeName: encodeURI(title.toLowerCase()),
+      id: doc.id,
+      title,
+      items
+    };
+    console.log(objToReturn);
+    return objToReturn
+  });
+  return transformedCollection.reduce((accumulator, collection) => {
+    accumulator[collection.title.toLowerCase()] = collection;
+    return accumulator;
+  }, {});
 };
 
 firebase.initializeApp(config);

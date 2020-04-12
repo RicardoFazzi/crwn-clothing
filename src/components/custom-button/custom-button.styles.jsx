@@ -1,9 +1,10 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components';
 
-const ButtonStyles = css`
+const buttonStyles = css`
   background-color: black;
   color: white;
   border: none;
+
   &:hover {
     background-color: white;
     color: black;
@@ -11,7 +12,7 @@ const ButtonStyles = css`
   }
 `;
 
-const InvertedButtonStyles = css`
+const invertedButtonStyles = css`
   background-color: white;
   color: black;
   border: 1px solid black;
@@ -23,7 +24,7 @@ const InvertedButtonStyles = css`
   }
 `;
 
-const GoogleSigninStyles = css`
+const googleSignInStyles = css`
   background-color: #4285f4;
   color: white;
 
@@ -35,12 +36,10 @@ const GoogleSigninStyles = css`
 
 const getButtonStyles = props => {
   if (props.isGoogleSignIn) {
-    return GoogleSigninStyles;
-  } else if (props.inverted) {
-    return InvertedButtonStyles;
-  } else {
-    return ButtonStyles;
+    return googleSignInStyles;
   }
+
+  return props.inverted ? invertedButtonStyles : buttonStyles;
 };
 
 export const CustomButtonContainer = styled.button`
@@ -52,7 +51,7 @@ export const CustomButtonContainer = styled.button`
   padding: 0 35px 0 35px;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "Open Sans Condensed";
+  font-family: 'Open Sans Condensed';
   font-weight: bolder;
   cursor: pointer;
   display: flex;
