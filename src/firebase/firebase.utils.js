@@ -9,7 +9,7 @@ const config = {
   projectId: "crwn-db-e0fa7",
   storageBucket: "crwn-db-e0fa7.appspot.com",
   messagingSenderId: "725405082001",
-  appId: "1:725405082001:web:0d3ca784913ed3dff97a30"
+  appId: "1:725405082001:web:0d3ca784913ed3dff97a30",
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
@@ -41,24 +41,24 @@ export const addCollectionAndDocuments = async (
   const collectionRef = firestore.collection(collectionKey);
 
   const batch = firestore.batch();
-  objectsToAdd.forEach(obj => {
+  objectsToAdd.forEach((obj) => {
     const docRef = collectionRef.doc();
     batch.set(docRef, obj);
   });
   return await batch.commit();
 };
 
-export const convertCollectionSnapshotToMap = collections => {
-  const transformedCollection = collections.docs.map(doc => {
+export const convertCollectionSnapshotToMap = (collections) => {
+  const transformedCollection = collections.docs.map((doc) => {
     const { items, title } = doc.data();
     const objToReturn = {
       routeName: encodeURI(title.toLowerCase()),
       id: doc.id,
       title,
-      items
+      items,
     };
     console.log(objToReturn);
-    return objToReturn
+    return objToReturn;
   });
   return transformedCollection.reduce((accumulator, collection) => {
     accumulator[collection.title.toLowerCase()] = collection;
@@ -70,6 +70,15 @@ firebase.initializeApp(config);
 
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
+
+export const getCurrentUser = () => {
+  return new Promise((resolve, reject) => {
+    const unsubscribe = auth.onAuthStateChanged((userAuth) => {
+      unsubscribe();
+      resolve(userAuth);
+    }, reject);
+  });
+};
 
 export const googleProvider = new firebase.auth.GoogleAuthProvider();
 googleProvider.setCustomParameters({ prompt: "select_account" });
