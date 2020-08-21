@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0c8acd2-2afa-4e41-9998-529fc7f19fbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/collection-item/collectio-item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop_data.js" afterDir="false" />
+    <list default="true" id="e0c8acd2-2afa-4e41-9998-529fc7f19fbc" name="Default Changelist" comment="Write selector with currying">
+      <change afterPath="$PROJECT_DIR$/src/global.styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepages/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepages/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/headers.styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/headers.styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.jsx" afterDir="false" />
     </list>
     <list id="ff06ec6e-f63c-4a15-a283-2dd5000cebb7" name="no commit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="styled-component" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZAKNK7TVHNZc2uQdf2G73Ot2Mt" />
@@ -35,13 +40,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v12.3.1/lib/node_modules/prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/cart-dropdown" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pages/homepages" />
-      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/redux/shop" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$/src/components/header" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -56,7 +70,20 @@
       <option name="presentableId" value="Default" />
       <updated>1584276416970</updated>
       <workItem from="1584276418992" duration="8834000" />
-      <workItem from="1584531665430" duration="528000" />
+      <workItem from="1584531665430" duration="2097000" />
+      <workItem from="1584793273770" duration="17304000" />
+      <workItem from="1584965936711" duration="2226000" />
+      <workItem from="1585239205155" duration="16526000" />
+      <workItem from="1585583259214" duration="619000" />
+      <workItem from="1585658817916" duration="3094000" />
+      <workItem from="1586033082806" duration="878000" />
+      <workItem from="1586529461312" duration="10146000" />
+      <workItem from="1587245399397" duration="6194000" />
+      <workItem from="1588437084559" duration="5799000" />
+      <workItem from="1590248924352" duration="146000" />
+      <workItem from="1590495680927" duration="152000" />
+      <workItem from="1590508033024" duration="17000" />
+      <workItem from="1598034522345" duration="3833000" />
     </task>
     <task id="LOCAL-00001" summary="created project with first menu structure">
       <created>1584277821682</created>
@@ -72,7 +99,217 @@
       <option name="project" value="LOCAL" />
       <updated>1584309463630</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding header component">
+      <created>1584794966969</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584794966969</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Integrate firebase with SIGN IN with Google">
+      <created>1584811233577</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584811233577</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finishing Sign in with Firebase, create user if it doesn't exist">
+      <created>1584814540529</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584814540529</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added create account with email and password">
+      <created>1584815656302</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584815656302</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Signin method">
+      <created>1584833534732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584833534732</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added redux and implemented user reducer and user actions to header and app components.">
+      <created>1584899750545</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584899750545</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated app to redirect to home if user is signed">
+      <created>1584900173508</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584900173508</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Cart Icon + Cart dropdown component + Cart reducer &amp; action">
+      <created>1584902411670</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584902411670</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated shop data, updated cart utils to group items in cart reducer">
+      <created>1584967182515</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584967182515</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Created Cart Item component &amp; created cartDropdown with cartItem reducer">
+      <created>1585401947575</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585401947575</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Using reselect to create selectors to memoize data to save some renders and improve performance!">
+      <created>1585404465346</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585404465346</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Change mapStateToProps to use selectors">
+      <created>1585406487934</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585406487934</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Checkout page, checkout item">
+      <created>1585409902625</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585409902626</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added increase and decrease quantity from cart">
+      <created>1585411940366</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585411940366</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Redux-persist: Added persist to localstorage with redux-persist">
+      <created>1585495327480</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1585495327480</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added directory sections to store">
+      <created>1585496902528</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1585496902528</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Moved shop_data to store">
+      <created>1585506218434</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585506218434</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Write selector with currying">
+      <created>1585522473120</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585522473120</updated>
+    </task>
+    <task id="LOCAL-00021" summary="updated data to be normalized (hash map instead of array) and changed corresponding components">
+      <created>1585662150776</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1585662150776</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Integrated Stripe for payments">
+      <created>1585667319133</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1585667319133</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added favicon">
+      <created>1585745087355</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1585745087355</updated>
+    </task>
+    <task id="LOCAL-00024" summary="move logger just to development env">
+      <created>1586038080138</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1586038080138</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added styled-components lib">
+      <created>1586617308609</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1586617308609</updated>
+    </task>
+    <task id="LOCAL-00026" summary="HOC">
+      <created>1586712039534</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1586712039534</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Redux-thunk">
+      <created>1586728330167</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1586728330167</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added containers">
+      <created>1587304861046</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1587304861046</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added redux-saga">
+      <created>1587319948244</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1587319948244</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Sagas">
+      <created>1587385570738</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1587385570738</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Sagas">
+      <created>1588456913893</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1588456913893</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Finishing sagas">
+      <created>1588596104878</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1588596104878</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,22 +321,45 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created project with first menu structure" />
-    <MESSAGE value="Updated menuItem to navigate withRouter HOC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated menuItem to navigate withRouter HOC" />
+    <MESSAGE value="Signin method" />
+    <MESSAGE value="Added redux and implemented user reducer and user actions to header and app components." />
+    <MESSAGE value="Updated app to redirect to home if user is signed" />
+    <MESSAGE value="Cart Icon + Cart dropdown component + Cart reducer &amp; action" />
+    <MESSAGE value="Updated shop data, updated cart utils to group items in cart reducer" />
+    <MESSAGE value="Created Cart Item component &amp; created cartDropdown with cartItem reducer" />
+    <MESSAGE value="Using reselect to create selectors to memoize data to save some renders and improve performance!" />
+    <MESSAGE value="Change mapStateToProps to use selectors" />
+    <MESSAGE value="Checkout page, checkout item" />
+    <MESSAGE value="Added increase and decrease quantity from cart" />
+    <MESSAGE value="Redux-persist: Added persist to localstorage with redux-persist" />
+    <MESSAGE value="Added directory sections to store" />
+    <MESSAGE value="Moved shop_data to store" />
+    <MESSAGE value="Write selector with currying" />
+    <MESSAGE value="updated data to be normalized (hash map instead of array) and changed corresponding components" />
+    <MESSAGE value="Integrated Stripe for payments" />
+    <MESSAGE value="Added favicon" />
+    <MESSAGE value="move logger just to development env" />
+    <MESSAGE value="Added styled-components lib" />
+    <MESSAGE value="HOC" />
+    <MESSAGE value="Redux-thunk" />
+    <MESSAGE value="Added containers" />
+    <MESSAGE value="Added redux-saga" />
+    <MESSAGE value="Sagas" />
+    <MESSAGE value="Finishing sagas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing sagas" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="272" y="23" width="897" height="789" key="CommitChangelistDialog2" timestamp="1584309463407">
+    <state x="371" y="207" width="697" height="486" key="find.popup" timestamp="1598039354876">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="272" y="23" width="897" height="789" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584309463407" />
-    <state x="571" y="372" key="VCS.ChangelistChooser" timestamp="1584277790161">
+    <state x="371" y="207" width="697" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1598039354876" />
+    <state x="459" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1598035946595">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="571" y="372" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1584277790161" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584309465588">
+    <state x="459" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900@0.0.1440.900" timestamp="1598035946595" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1598038729972">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584309465588" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1598038729972" />
   </component>
 </project>
